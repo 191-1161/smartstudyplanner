@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.airbnb.android",
+    "module": "lottie",
+    "version": "6.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lottie-6.0.0.aar",
+          "url": "lottie-6.0.0.aar",
+          "size": 408378,
+          "sha512": "ccf82670b1551b99a830fbc511a358f01f98fa758a1701c19c9e133c9cd37b98165f035e1915cb038616a7f1458ed1e38085587e0e6001222997d0596bf25a8a",
+          "sha256": "f55e9d6c4b9bbcfec8fd2ec4ef1c913842e55c48871303517e554259add92acf",
+          "sha1": "0c7f544ae486bfd8fb93987e3fad116e3e7e413d",
+          "md5": "54507d1b509e8d7e2facd22f600750ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "1.17.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lottie-6.0.0.aar",
+          "url": "lottie-6.0.0.aar",
+          "size": 408378,
+          "sha512": "ccf82670b1551b99a830fbc511a358f01f98fa758a1701c19c9e133c9cd37b98165f035e1915cb038616a7f1458ed1e38085587e0e6001222997d0596bf25a8a",
+          "sha256": "f55e9d6c4b9bbcfec8fd2ec4ef1c913842e55c48871303517e554259add92acf",
+          "sha1": "0c7f544ae486bfd8fb93987e3fad116e3e7e413d",
+          "md5": "54507d1b509e8d7e2facd22f600750ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lottie-6.0.0-sources.jar",
+          "url": "lottie-6.0.0-sources.jar",
+          "size": 236113,
+          "sha512": "b18f7c4daad2c5962592b11554fcca6a39b2e2bb03915451ec857e31859c93822a456ff811e38677efff2f382f6b1b10c0739e62a079caa9e8a6fa58a06a117d",
+          "sha256": "0e5c6770f17d1c1d7a834e615ef95db8e8f2ca8b882268b8ab1bba44fb023abe",
+          "sha1": "5aee39d6c9bb4328e5d6a48e37f39fbff6c80a92",
+          "md5": "ede47227c6495a7a05a91252edb46048"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lottie-6.0.0-javadoc.jar",
+          "url": "lottie-6.0.0-javadoc.jar",
+          "size": 992820,
+          "sha512": "daea12d994ca138161ea58aab1207b7d8d483717666723bf5c31d2a673b365c2b49fcd5f8809a4240afc029f6d16da000ac8a6fb103257dca9c16d9115b7f196",
+          "sha256": "f9b8ba1f9d90cb619e62e7eadb21245cbcfcd9cfc0f20d2a493843188dc48d20",
+          "sha1": "a9661f490f2aec4fb1c574def58aa1c769b13ba2",
+          "md5": "5f54fe4bcf4cd372941e9d76ac1e21c2"
+        }
+      ]
+    }
+  ]
+}
